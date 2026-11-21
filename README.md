@@ -1,15 +1,15 @@
 # Children of Time Universe Atlas
 
-[Open the atlas](https://simonrj.github.io/MyLab/)
+[Open the atlas on GitHub Pages](https://simonrj.github.io/MyLab/)
 
-An unofficial illustrated companion to Adrian Tchaikovsky’s *Children of Time*, *Children of Ruin*, and *Children of Memory*. The map, character dossiers, timeline, and refresher contain spoilers through the end of the third book. The fan artwork and schematic maps are interpretive.
+An unofficial illustrated companion to *Children of Time*, *Children of Ruin* and *Children of Memory*. The archive contains spoilers through the end of the third novel.
 
-## Using the atlas
+## Exploring the atlas
 
-Open the link above in Safari on an iPhone or in a desktop browser. On iPhone, use the bottom tabs to explore the map, people, timeline, and worlds. The **More** tab opens the remaining sections.
+Choose a destination from the orbital explorer or star chart. Drag a globe or spacecraft to rotate it, use the zoom controls, and open a dossier to follow connections to worlds, characters and events. Keyboard users can focus a model and rotate it with the arrow keys. The slash key opens search. Book and history filters help distinguish the physical and simulated events on Imir.
 
-## Publishing updates
+The planet surfaces, orbital positions, spacecraft and portraits are interpretive. Individual life records identify known family relationships and outcomes, distinguish elapsed time from biological age, and mark missing dates and measurements. Chapter and source notes appear on the relevant records. The reference atlas also includes the 23 locations, narrative arcs, author commentary and reading refresher.
 
-GitHub Pages publishes the root of the `main` branch. Edit the root `index.html` and commit to `main` to update the site. The HTML file includes the atlas data, artwork, styles, and scripts. You can open it in a desktop browser for a local preview.
+## Publishing
 
-The `children-of-time/` directory forwards earlier bookmarks to the homepage.
+GitHub Pages serves the root of the main branch. This static site needs no build step or external JavaScript service. Keep the HTML, JavaScript, stylesheet and media together. The homepage opens the 3D explorer. Earlier hash links resolve to their reference entries, and the children-of-time directory retains its original forwarding page.
