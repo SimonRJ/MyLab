@@ -1,0 +1,19 @@
+[hidden]{display:none!important}
+.offlineBar{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px 15px;padding:5px var(--side,20px);border-bottom:1px solid #2a3732;background:#101a16;font-size:.81rem;color:#bacabe}
+.offlineBar a{color:#efce91;text-decoration:underline;text-underline-offset:3px;padding:4px 0}
+.offlineBar .statusMark{width:7px;height:7px;border-radius:50%;display:inline-block;background:#d4af71;margin-right:7px}
+.offlineBar[data-state=ready] .statusMark{background:#9cdbb8}
+.offlineBar [data-offline-retry]{border:1px solid #647768;border-radius:4px;color:inherit;min-height:32px;padding:2px 8px}
+.installPage{min-height:100vh;background:linear-gradient(100deg,#08100ff7,#09110fdc),url(media/stars.jpg) center/cover fixed}
+.installHeader{min-height:80px;flex-wrap:nowrap;padding:10px var(--side);padding-top:max(10px,env(safe-area-inset-top))}
+.installHeader img{border-radius:10px}
+.installMain{max-width:720px;margin:0 auto;padding:clamp(30px,6vw,70px) 22px max(50px,env(safe-area-inset-bottom))}
+.installMain h1{font:400 clamp(45px,6vw,74px)/1.02 var(--serif);letter-spacing:-.055em;margin:14px 0}
+.installMain>p,.installMain li,.packNote{color:var(--muted);line-height:1.65}
+.installMain h2{font:400 28px var(--serif);margin:0 0 12px}
+.installMain section{margin:26px 0}.installMain ol{padding-left:24px}.installMain li{padding-left:5px;margin:8px 0}.installMain strong{color:var(--text)}
+.pack{border:1px solid var(--line);background:#121e18;padding:20px;border-radius:8px}
+.packState{color:var(--gold);font-weight:600}.packNote{margin-top:10px;font-size:.87rem}
+.pack progress{width:100%;accent-color:var(--gold);height:9px;margin:11px 0 0}.pack button{margin-top:12px}
+@media(max-width:700px){.offlineBar{padding:4px 18px;justify-content:space-between}.installHeader .quietBtn{font-size:.84rem}}
+@media(display-mode:standalone){header{padding-top:max(8px,env(safe-area-inset-top))}footer{padding-bottom:max(20px,env(safe-area-inset-bottom))}}

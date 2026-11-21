@@ -3,10 +3,14 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#09110f"><meta name="description" content="Explore the worlds, spacecraft, characters and connected history of the first three Children of Time novels in an interactive orbital atlas.">
 <title>Children of Time · Universe Atlas</title><link rel="stylesheet" href="atlas.css">
+<link rel="manifest" href="app.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Time Atlas"><meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="offline.css"><script defer src="offline-client.js"></script>
 </head><body><a class="skip" href="#main">Skip to content</a><header>
 <a class="brand" href="#/orbit/kerns" aria-label="Children of Time atlas home"><svg viewBox="0 0 44 44" width="43" height="43" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="22" cy="22" r="12"/><ellipse cx="22" cy="22" rx="21" ry="7" transform="rotate(-38 22 22)"/><path d="M22 6v6m0 21v5M6 22h5m22 0h5"/><circle cx="35" cy="9" r="2" fill="currentColor" stroke="none"/></svg><span>Children of Time<small>Universe atlas</small></span></a>
 <nav aria-label="Atlas navigation"><a href="#/orbit/kerns" data-nav="orbit">Explorer</a><a href="#/fleet" data-nav="fleet">Spacecraft</a><a href="#/people" data-nav="people">Characters</a><a href="#/chronology" data-nav="chronology">Timeline</a></nav>
 <button class="searchButton" id="searchOpen" aria-label="Search the atlas"><span data-icon="search"></span><span class="searchWord">Search atlas</span><kbd>/</kbd></button></header>
+<div class="offlineBar"><span><i class="statusMark" aria-hidden="true"></i><span data-offline-status role="status">Checking offline access…</span></span><button type="button" data-offline-retry hidden>Retry download</button><a href="offline.html" data-install-link>iPhone app</a></div>
 <main id="main" tabindex="-1"></main>
 <footer><span>Children of Time <i>Universe Atlas</i></span><div><a href="reader.html#/sources">Sources &amp; artwork</a><a href="reader.html#/refresher">Trilogy refresher</a><a href="reader.html#/atlas">Reference atlas</a></div><small>Unofficial companion · Spoilers through Book III</small></footer>
 <dialog id="searchDialog"><form method="dialog" class="dialogHead"><strong>Search the atlas</strong><button class="iconBtn" aria-label="Close search" value="close">×</button></form><label for="lookup">Worlds, spacecraft, characters and events</label><input type="search" id="lookup" autocomplete="off" placeholder="Try Portia, Gilgamesh or Imir"><div id="results" aria-live="polite"></div></dialog>

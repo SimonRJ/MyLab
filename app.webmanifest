@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Children of Time Atlas",
+  "short_name": "Time Atlas",
+  "description": "An offline orbital atlas for the first three Children of Time novels.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#09110f",
+  "theme_color": "#09110f",
+  "icons": [
+    {"src": "icons/atlas-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/atlas-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
